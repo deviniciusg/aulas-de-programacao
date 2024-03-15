@@ -1,15 +1,16 @@
 body{
   background-color: #161616;
   font-family: "Poppins", sans-serif;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1800px;
 }
 
 #inicial{
   color: white;
   font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 1em;
 }
 
 #header{ 
@@ -18,17 +19,12 @@ body{
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  margin: 15px;
-  max-width: 1800px;
-
+  margin: 15px 0px;    
 }
 
-#menu {
-  padding-left: 10px;
-}
 
 #logo_menu{
-  width: 30%;
+  width: auto;
 }
 
 .btn {
@@ -41,7 +37,6 @@ body{
   padding: 10px;
   border: 0;  
   transition: 0.4s
-
 }
 
 .btn_fundo{
@@ -52,7 +47,7 @@ body{
   color: #161616;
   background-color: #04d4fc;
   border-radius: 40px 40px 40px 40px;
-  padding: 10px;
+  padding: 10px 20px;
   transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
   border: 0;  
   margin: 0px 5px;
@@ -61,7 +56,6 @@ body{
 .btn:hover{
   color: #04d4fc;
   transition: 0.4s
-
 }
 
 .btn_fundo:hover{
@@ -73,13 +67,16 @@ body{
 #container_inicial {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;   
+  justify-content: space-between;     
+  height: 92%;
 }
 
-#paragrafo_inicial {}
+#paragrafo_inicial {
+  padding: 15px 80px 0px 0px;
+  width: 50%;
+}
 
 #foto_perfil {
-  width: 400px; 
-  height: 400px;
-  
+  width: 300px; 
+  height: 300px;  
 }
