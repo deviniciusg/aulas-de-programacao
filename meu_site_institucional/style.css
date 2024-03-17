@@ -4,13 +4,18 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1800px;
 }
+
+p{ 
+   padding:0px; 
+   margin:0px; 
+} 
 
 #inicial{
   color: white;
   font-size: 30px;
-  height: 1em;
+  height: 100vh;
+  
 }
 
 #header{ 
@@ -20,11 +25,14 @@ body{
   justify-content: space-between;
   align-items: center;
   margin: 15px 0px;    
+  height: 10vh;
+  transition: 0.4s
 }
 
 
 #logo_menu{
   width: auto;
+  cursor: pointer;
 }
 
 .btn {
@@ -36,7 +44,7 @@ body{
   color: white;
   padding: 10px;
   border: 0;  
-  transition: 0.4s
+  
 }
 
 .btn_fundo{
@@ -55,28 +63,45 @@ body{
 
 .btn:hover{
   color: #04d4fc;
-  transition: 0.4s
+  transition: 0.4s;
+  cursor: pointer;
+
+  
 }
 
 .btn_fundo:hover{
   color: #161616;
   transform: translate3d(0px, -4px, 0);
-  transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);  
 }
 
 #container_inicial {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;     
-  height: 92%;
+  align-items: center;
+  justify-content: space-between;  
+  height: 75vh;
+  transition: 1s;
+  line-height: 1;
+  transform: translateY(18px);
 }
 
-#paragrafo_inicial {
-  padding: 15px 80px 0px 0px;
-  width: 50%;
+#paragrafo_inicial {  
+  width: 45%;
+  font-size: 48px;    
+  font-weight: 600;     
+}
+
+#p1 {
+  color: #04d4fc;
+  font-weight: 400;
+  font-size: 38px;  
+}
+
+#btn_pg_inicial{
+  margin-top: 60px;
 }
 
 #foto_perfil {
-  width: 300px; 
-  height: 300px;  
+  height: 400px;
 }
