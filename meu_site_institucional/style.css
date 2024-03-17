@@ -14,8 +14,7 @@ p{
 #inicial{
   color: white;
   font-size: 30px;
-  height: 100vh;
-  
+  height: 100vh;  
 }
 
 #header{ 
@@ -65,8 +64,6 @@ p{
   color: #04d4fc;
   transition: 0.4s;
   cursor: pointer;
-
-  
 }
 
 .btn_fundo:hover{
@@ -104,4 +101,17 @@ p{
 
 #foto_perfil {
   height: 400px;
+}
+
+#sobre_mim{
+  background-color: #04d4fc;
+  width: 100%;
+}
+
+#container_sobre_mim{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;  
+  max-width: 1800px;
 }
