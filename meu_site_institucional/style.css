@@ -3,7 +3,8 @@ body{
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
+  width: 100vw;
 }
 
 p{ 
@@ -15,6 +16,10 @@ p{
   color: white;
   font-size: 30px;
   height: 100vh;  
+}
+
+#container_inicial{
+  width: 1400px; 
 }
 
 #header{ 
@@ -34,7 +39,7 @@ p{
   cursor: pointer;
 }
 
-.btn {
+.btn{
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1.5px;
@@ -72,7 +77,7 @@ p{
   transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);  
 }
 
-#container_inicial {
+#container_inicial_inferior {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -85,33 +90,68 @@ p{
 
 #paragrafo_inicial {  
   width: 45%;
-  font-size: 48px;    
-  font-weight: 600;     
+  font-size: 60px;    
+  font-weight: 600;   
 }
 
 #p1 {
   color: #04d4fc;
   font-weight: 400;
   font-size: 38px;  
+  margin-bottom: 10px;
 }
 
-#btn_pg_inicial{
+#container_inicial_inferior button{
   margin-top: 60px;
+  font-size: 22px;
+  font-weight: 500;
 }
 
-#foto_perfil {
-  height: 400px;
+#container_inicial_inferior img {
+  height: auto;
+  max-height: 550px;
 }
 
 #sobre_mim{
   background-color: #04d4fc;
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  height: 90vh;
+  font-size: 30px;
+}
+
+#sobre_mim h3{
+  
 }
 
 #container_sobre_mim{
+  width: 1400px;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+#container_sobre_mim img{
+  width: 400px;
+  transition: 1s;
+  line-height: 1;
+  border-radius: 400px;
+  box-shadow: 6px 6px 74px 0px rgba(0,0,0,0.12);
+}
+
+#container_sobre_mim img:hover{
+  transition: 1s;
+  line-height: 1;
+  transform: translateY(-18px);
+}
+
+#p_sobre_mim{  
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: space-between;  
-  max-width: 1800px;
+  justify-content: center;  
 }
