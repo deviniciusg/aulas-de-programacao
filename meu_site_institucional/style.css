@@ -4,12 +4,11 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;  
-  width: 100vw;
 }
 
 p{ 
-   padding:0px; 
-   margin:0px; 
+  padding:0px; 
+  margin:0px; 
 } 
 
 #inicial{
@@ -19,7 +18,7 @@ p{
 }
 
 #container_inicial{
-  width: 1400px; 
+  width: 80vw; 
 }
 
 #header{ 
@@ -89,7 +88,7 @@ p{
 }
 
 #paragrafo_inicial {  
-  width: 45%;
+  width: 45vw;
   font-size: 60px;    
   font-weight: 600;   
 }
@@ -114,7 +113,6 @@ p{
 
 #sobre_mim{
   background-color: #04d4fc;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
