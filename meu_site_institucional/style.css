@@ -18,7 +18,7 @@ p{
 }
 
 #container_inicial{
-  width: 80vw; 
+  width: 85vw; 
 }
 
 #header{ 
@@ -46,8 +46,7 @@ p{
   background-color: transparent;
   color: white;
   padding: 10px;
-  border: 0;  
-  
+  border: 0;    
 }
 
 .btn_fundo{
@@ -118,7 +117,10 @@ p{
   align-items: center;
   justify-content: center;  
   height: 120vh;
-  font-size: 30px;
+  font-size: 30px;  
+  width: 100%;
+  padding: 100px 0px;
+  
 }
 
 #sobre_mim h3{
@@ -129,10 +131,12 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: space-between;  
+  width: 85vh;
 }
 
 #container_sobre_mim img{
-  width: 400px;
+  max-width: 400px;
+  width: auto;
   transition: 1s;
   line-height: 1;
   border-radius: 400px;
@@ -150,4 +154,19 @@ p{
   flex-direction: column;
   align-items: start;
   justify-content: center;  
+}
+
+#formacao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#formacao a{
+  color: white;
+}
+
+#wrapped_formacao{
+  width: 80vh;
 }
