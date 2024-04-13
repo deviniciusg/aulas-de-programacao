@@ -119,7 +119,7 @@ p{
   flex-direction: column;
   align-items: center;
   justify-content: center;  
-  height: 90vh;
+  height: 120vh;
   font-size: 30px;
 }
 
@@ -128,7 +128,6 @@ p{
 }
 
 #container_sobre_mim{
-  width: 1400px;  
   display: flex;
   flex-direction: row;
   justify-content: space-between;  
@@ -149,7 +148,6 @@ p{
 }
 
 #p_sobre_mim{  
-  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: start;
