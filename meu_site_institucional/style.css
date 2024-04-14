@@ -11,6 +11,18 @@ p{
   margin:0px; 
 } 
 
+a {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
 #inicial{
   color: white;
   font-size: 30px;
@@ -119,11 +131,11 @@ p{
   height: 150vh;
   font-size: 30px;  
   width: 100%;
-  
+  color: #161616;
 }
 
-#sobre_mim h3{
-  
+#sobre_mim h1, #sobre_mim h2, #sobre_mim h3, #sobre_mim p, #sobre_mim a {
+  color: #161616; 
 }
 
 #wrapped_sobre_mim{
@@ -148,7 +160,6 @@ p{
   transition: transform 1s, width 1s, border-radius 1s;
   line-height: 1;
   border-radius: 400px;
-  box-shadow: 6px 6px 74px 0px rgba(0,0,0,0.12);
 }
 
 #container_sobre_mim img:hover {
@@ -161,7 +172,7 @@ p{
   flex-direction: column;
   align-items: start;
   justify-content: center;  
-  width: 60%;
+  width: 60%;  
 }
 
 #formacao{
@@ -169,12 +180,28 @@ p{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
-#formacao a{
-  color: white;
+#formacao a, h3, h2{
+  color: white;  
 }
 
 #wrapped_formacao{
   width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#wrapped_formacao div{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wrapped_formacao img{
+  border-radius: 25px;
+  width: 100px;
 }
