@@ -177,7 +177,7 @@ h3 {
 
 #formacao{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 130vh;
@@ -190,12 +190,13 @@ h3 {
 #formacao h3{
   color: #04d4fc;
   border-radius: 15px;
+  margin: 5px 0px;  
+  font-weight: 400;
 }
 
 #formacao_title{
   color: #04d4fc;  
-  font-weight: 400;
-  font-size: 28px;
+  margin: 5px 0px;
 }
 
 #wrapped_formacao{  
