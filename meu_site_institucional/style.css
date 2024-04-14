@@ -188,6 +188,7 @@ h3 {
 }
 
 #wrapped_formacao{
+  height: 100vh;
   width: 85vw;
   display: flex;
   flex-direction: column;
@@ -195,13 +196,21 @@ h3 {
   justify-content: space-between;
 }
 
-#wrapped_formacao div{
-   display: flex;
+#wrapped_formacao div:not(.formacao_icon_title){
+  display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: start;  
 }
 
-#wrapped_formacao img{
+#wrapped_formacao img {
   border-radius: 25px;
   width: 100px;
+  height: 100px;
+  margin: 0px 25px 0px 0px;
+
+}
+
+.formacao_icon_title {
+  display: flex;
+  flex-direction: row;  
 }
