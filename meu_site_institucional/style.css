@@ -12,7 +12,7 @@ p{
 } 
 
 a {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 h2 {
@@ -187,30 +187,51 @@ h3 {
   color: white;  
 }
 
-#wrapped_formacao{
-  height: 100vh;
+#formacao h3{
+  color: #04d4fc;
+  border-radius: 15px;
+}
+
+#formacao_title{
+  color: #04d4fc;  
+  font-weight: 400;
+  font-size: 28px;
+}
+
+#wrapped_formacao{  
   width: 85vw;
   display: flex;
   flex-direction: column;
   align-items: start;
+  justify-content: flex-start;
+}
+
+.formacao_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   justify-content: space-between;
+  gap: 60px;
 }
 
 #wrapped_formacao div:not(.formacao_icon_title){
   display: flex;
   flex-direction: column;
   align-items: start;  
+  
 }
 
 #wrapped_formacao img {
-  border-radius: 25px;
-  width: 100px;
-  height: 100px;
-  margin: 0px 25px 0px 0px;
-
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  margin: 0px 10px 0px 0px;
 }
 
 .formacao_icon_title {
   display: flex;
   flex-direction: row;  
+  align-items: center;
+  gap: 15px;
 }
+
