@@ -27,3 +27,13 @@ function alterarContexto() {
     html.setAttribute('data-contexto', contexto)
     banner.setAttribute('src', `/imagens/${contexto}.png`)
 }
+
+// 02 05 alterando texto da página
+
+<h1 class="app__title">
+    Otimize sua produtividade,<br>
+    <strong class="app__title-strong">mergulhe no que importa.</strong>
+</h1>
+
+
+const titulo = document.querySelector('.app__title')
