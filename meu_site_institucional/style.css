@@ -238,13 +238,30 @@ h3 {
 
 
 
-@media (max-width: 1000px) {
-  #menu_desktop{
+@media (max-width: 1049px) {
+  #header_desktop{
     display: none;
   }
+  
+  #header_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 15px 0px;    
+    height: 10vh;
+  }
+
+  #menu{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
   #header_mobile{
     display: none;
   }
