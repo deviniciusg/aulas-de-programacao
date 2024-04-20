@@ -102,6 +102,11 @@ h3 {
   width: 45vw;
   font-size: 60px;    
   font-weight: 600;   
+  color: white;
+}
+
+#paragrafo_inicial p{
+  color: white;
 }
 
 #p1 {
@@ -236,6 +241,44 @@ h3 {
   gap: 15px;
 }
 
+#depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #04d4fc;
+  text-align: center;
+  height: 100vh;
+}
+
+.container_depoimentos{
+  height: 80vh;
+}
+
+.testimonials_wrapped{
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonal_card {
+}
+
+.testimonal_card h1, h2, h3, p{
+  color: #161616;
+}
+
+.testimonal_card h4 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+.testimonal_card img{
+  width: 337px; 
+  height: 337px; 
+  object-fit: fill; 
+  object-position: 100% 0;
+}
 
 
 @media (max-width: 1049px) {
