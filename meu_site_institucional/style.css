@@ -253,12 +253,15 @@ h3 {
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    
   }
 
   #menu_mobile{
     display: none;
     flex-direction: column;
     width: 100%;
+    background-color: #161616;
+    transform: translateY(-18px);   
   }
 
 }
