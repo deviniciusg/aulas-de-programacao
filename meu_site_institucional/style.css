@@ -257,14 +257,24 @@ h3 {
   }
 
   #menu_mobile{
-    display: none;
+    display: flex;            /* Mudar para 'flex' para manter o layout do menu */
     flex-direction: column;
     width: 100%;
     background-color: #161616;
-    transform: translateY(-18px);   
+    height: 0;                /* Começa com altura zero */
+    overflow: hidden;         /* Evita que o conteúdo interno seja visível quando a altura é zero */
+    opacity: 0;               /* Começa totalmente transparente */
     z-index: 100;
     position: relative;
+    transform: translateY(-18px);
+    transition: height 0.5s ease, opacity 0.5s ease; /* Transição suave para altura e opacidade */
   }
+
+  #menu_mobile.active {
+    height: 200px;            /* Altura final desejada do menu quando aberto */
+    opacity: 1;               /* Totalmente opaco quando aberto */
+    transform: translateY(0px); /* Retira a transformação para alinhar na posição normal */
+}
 
 }
 

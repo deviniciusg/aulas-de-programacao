@@ -1,16 +1,15 @@
 console.log('olá mundo');
 const html = document.querySelector('html')
-const menu_mobile = document.getElementById('menu_mobile')
-menu_mobile.style.display = 'none';    
+const menu_mobile = document.getElementById('menu_mobile');
 
 
 
-function abrirMenuMobile(){    
-    if (menu_mobile.style.display == 'none') {
-    console.log('Botão apertado! Display none.')
-    menu_mobile.style.display = 'flex';
+function toggleMenu(){    
+    if (menu_mobile.classList.contains('active')) {
+        console.log('Menu está sendo fechado.');
+        menu_mobile.classList.remove('active'); 
     } else {
-    console.log('Botão apertado com sucesso! Display flex.')
-    menu_mobile.style.display = 'none';    
+        console.log('Menu está sendo aberto.');
+        menu_mobile.classList.add('active'); 
     }
 }
