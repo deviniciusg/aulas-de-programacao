@@ -5,7 +5,7 @@ menu_mobile.style.display = 'none';
 
 
 
-function minhaFuncao(){    
+function abrirMenuMobile(){    
     if (menu_mobile.style.display == 'none') {
     console.log('Botão apertado! Display none.')
     menu_mobile.style.display = 'flex';
