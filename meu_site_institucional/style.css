@@ -243,20 +243,22 @@ h3 {
     display: none;
   }
   
-  #header_mobile{
+  #header_mobile {
+    margin: 15px 0px;    
+    height: 10vh;
+  }
+  
+  .container_header_mobile {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    margin: 15px 0px;    
-    height: 10vh;
   }
 
-  #menu{
+  #menu_mobile{
     display: none;
     flex-direction: column;
     width: 100%;
-
   }
 
 }
