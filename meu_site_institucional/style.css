@@ -262,6 +262,8 @@ h3 {
     width: 100%;
     background-color: #161616;
     transform: translateY(-18px);   
+    z-index: 100;
+    position: relative;
   }
 
 }
