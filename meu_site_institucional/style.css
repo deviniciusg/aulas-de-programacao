@@ -316,7 +316,76 @@ h3 {
   margin: 5px 25px 25px 25px;
 }
 
+#contato {
+  height: 80vh;
+  width: 85vw;
+}
 
+#container_contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+#container_contato h2 {
+  text-align: center;
+  color: #04d4fc;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's width/height */
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #004494;
+}
+
+textarea {
+    height: 100px;
+}
 
 
 
