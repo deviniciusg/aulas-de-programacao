@@ -319,16 +319,19 @@ h3 {
 #contato {
   height: 80vh;
   width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #container_contato {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
 }
 
 form {
-  background: #ffffff;
+  background: transparent;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -344,19 +347,19 @@ form {
 label {
   margin-top: 10px;
   display: block;
-  color: #666;
+  color: #04d4fc;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box; /* Include padding and border in the element's width/height */
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in the element's width/height */
 }
 
 .input-group {
@@ -366,28 +369,15 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #0056b3;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    margin-top: 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #004494;
+  background-color: #004494;
 }
 
 textarea {
     height: 100px;
 }
-
-
 
 @media (max-width: 1049px) {
   #header_desktop{
