@@ -334,19 +334,12 @@ form {
   background: transparent;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 100%;
-  max-width: 400px;
+  max-width: 400px;    
 }
 
 #container_contato h2 {
-  text-align: center;
-  color: #04d4fc;
-}
-
-label {
-  margin-top: 10px;
-  display: block;
+  text-align: start;
   color: #04d4fc;
 }
 
@@ -355,29 +348,36 @@ input[type="email"],
 input[type="tel"],
 textarea {
   width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  box-sizing: border-box; /* Include padding and border in the element's width/height */
+  padding: 10px 14px;
+  margin: 5px 2.5px;
+  background-color: transparent;  
+  border: none;
+  border-bottom: 1px solid #04d4fc;
+  box-sizing: border-box;   
+  font-size: 16px;  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+  box-sizing: border-box;
+  outline: none;
 }
 
 .input-group {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 5px;  
 }
 
 input[type="submit"] {
-}
-
-input[type="submit"]:hover {
-  background-color: #004494;
+  margin-top: 10px;
 }
 
 textarea {
-    height: 100px;
+  height: 100px;  
+  font-size: 16px;  
+  resize: none;
 }
+
 
 @media (max-width: 1049px) {
   #header_desktop{
