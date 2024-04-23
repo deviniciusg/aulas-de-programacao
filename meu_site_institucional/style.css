@@ -187,6 +187,18 @@ h3 {
   transform: translateY(-18px); 
 }
 
+.socialmedia_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out; 
+  cursor: pointer;
+  width: 20px;
+}
+
+.socialmedia_icons svg:hover {
+  transform: scale(1.2); 
+}
 
 #p_sobre_mim{  
   display: flex;
@@ -398,17 +410,24 @@ textarea {
 }
 
 footer{
+ width: 100%;
+ background-color: #111;
+}
+
+.footer_container{ 
   display: flex;
   flex-direction: row;
-  background-color: #111111;
-  width: 100%;
+  justify-content: space-around;
+  flex-wrap: initial;
+  align-items: center;
 }
 
-.socialmedia_icons {}
-
-.socialmedia_icons svg{
-  color: #04d4fc;
+.footer_container img{ 
+  width: auto;
+  max-width: 200px;
 }
+
+
 
 @media (max-width: 1049px) {
   #header_desktop{
