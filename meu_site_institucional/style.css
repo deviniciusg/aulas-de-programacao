@@ -26,6 +26,7 @@ h3 {
   font-size: 35px;
   margin: 0px 0px 0px 0px;
   font-weight: 400;  
+  text-transform:uppercase
 }
 
 .fundo_claro {
@@ -62,7 +63,7 @@ h3 {
 }
 
 
-#logo_menu{
+#header_desktop img{
   width: auto;
   cursor: pointer;
 }
@@ -128,10 +129,10 @@ h3 {
   color: white;
 }
 
-#p1 {
+#paragrafo_inicial h3{
   color: #04d4fc;
   font-weight: 400;
-  font-size: 38px;  
+  font-size: 25px;  
   margin-bottom: 10px;
 }
 
@@ -228,7 +229,7 @@ padding: 0px 0px 20px 0px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: flex-start;
+  justify-content: flex-start;  
 }
 
 #wrapped_formacao div:not(.formacao_icon_title){
@@ -279,8 +280,7 @@ padding: 0px 0px 20px 0px;
 }
 
 .container_depoimentos{
-  height: 80vh;
-  
+  height: 80vh;  
 }
 
 .testimonials_wrapped{
@@ -397,6 +397,18 @@ textarea {
   resize: none;
 }
 
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #111111;
+  width: 100%;
+}
+
+.socialmedia_icons {}
+
+.socialmedia_icons svg{
+  color: #04d4fc;
+}
 
 @media (max-width: 1049px) {
   #header_desktop{
