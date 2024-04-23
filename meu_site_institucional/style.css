@@ -19,10 +19,25 @@ a {
 
 h2 {
   font-size: 45px;
+  margin: 0px 0px 20px 0px;
 }
 
 h3 {
   font-size: 35px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 400;  
+}
+
+.fundo_claro {
+  color: #161616;
+}
+
+.fundo_escuro{
+  color: #04d4fc;
+}
+
+.fundo_escuro_alt{
+  color: white;
 }
 
 #inicial{
@@ -137,18 +152,14 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;  
-  height: 150vh;
+  height: 120vh;
   font-size: 30px;  
   width: 100%;
   color: #161616;
 }
 
-#sobre_mim h1, #sobre_mim h2, #sobre_mim h3, #sobre_mim p, #sobre_mim a {
-  color: #161616; 
-}
-
 #wrapped_sobre_mim{
-  height: 120vh;
+  height: 100vh;
   width: 85vw;
   display: flex;
   align-items: center;
@@ -184,6 +195,10 @@ h3 {
   width: 60%;  
 }
 
+#p_sobre_mim p{
+padding: 0px 0px 20px 0px;
+}
+
 #formacao{
   display: flex;
   justify-content: center;
@@ -192,7 +207,7 @@ h3 {
   height: 120vh;
 }
 
-#formacao a, h3, h2{
+#formacao a, #formacao h3, #formacao h2{
   color: white;  
 }
 
@@ -233,7 +248,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: space-evenly;
+  justify-content: space-around;
   gap: 60px;
 }
 
@@ -259,7 +274,7 @@ h3 {
   justify-content: center;
   background-color: #04d4fc;
   text-align: center;
-  height: 125vh;
+  height: 155vh;
   width: 100%;
 }
 
@@ -293,8 +308,7 @@ h3 {
   border-radius: 50px;  
 }
 
-.testimonal_card h1, h2, h3, h4, p{
-  color: #161616;
+.testimonal_card h1, .testimonal_card h2, .testimonal_card h3, .testimonal_card h4, .testimonal_card p{
   padding: 5px;
   margin: 5px;
 }
@@ -325,22 +339,27 @@ h3 {
   justify-content: center;
 }
 
+#contato_wrapped{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
 #container_contato {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
+  align-items: center;
+}
+
+#container_contato h2 {
+  font-size: 20px;
 }
 
 form {
   background: transparent;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 20px 5px;
   width: 100%;
   max-width: 400px;    
-}
-
-#container_contato h2 {
-  text-align: start;
-  color: #04d4fc;
 }
 
 input[type="text"],
