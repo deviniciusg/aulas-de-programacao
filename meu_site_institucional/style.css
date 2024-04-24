@@ -49,6 +49,7 @@ h3 {
 
 #container_inicial{
   width: 85vw; 
+  max-width: 1140px;
 }
 
 #header_desktop{ 
@@ -77,6 +78,7 @@ h3 {
   color: white;
   padding: 10px;
   border: 0;    
+  text-decoration: none;
 }
 
 .btn_fundo{
@@ -99,6 +101,10 @@ h3 {
   color: #04d4fc;
   transition: 0.4s;
   cursor: pointer;
+}
+
+.btn_fundo a{
+  transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .btn_fundo:hover{
@@ -143,8 +149,8 @@ h3 {
 }
 
 #container_inicial_inferior img {
-  height: auto;
-  max-height: 550px;
+  width: auto;
+  max-width: 400px;
 }
 
 #sobre_mim{
@@ -165,13 +171,20 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;  
+  max-width: 1140px;
 }
 
 #container_sobre_mim{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;  
+  justify-content: flex-start;  
   align-items: start;    
+}
+
+.pp_socialmedia {
+  width: auto;
+  width: fit-content;  
+  padding-right: 80px;
 }
 
 #container_sobre_mim img {
@@ -191,9 +204,13 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  transition: transform 0.3s ease-in-out; 
-  cursor: pointer;
-  width: 20px;
+  cursor: pointer;  
+}
+
+.socialmedia_icons svg {
+  width: 40px;
+  padding: 0px 10px;
+  transition: transform 0.3s;
 }
 
 .socialmedia_icons svg:hover {
@@ -238,6 +255,7 @@ padding: 0px 0px 20px 0px;
 
 #wrapped_formacao{  
   width: 85vw;
+  max-width: 1140px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -292,7 +310,8 @@ padding: 0px 0px 20px 0px;
 }
 
 .container_depoimentos{
-  height: 80vh;  
+  height: 80vh;    
+  max-width: 1140px;
 }
 
 .testimonials_wrapped{
@@ -333,7 +352,6 @@ padding: 0px 0px 20px 0px;
   font-weight: 400;
   font-size: 24px;
   margin: 0px 25px 10px 25px;
-
 }
 
 .testimonal_card p{
@@ -355,6 +373,7 @@ padding: 0px 0px 20px 0px;
   display: flex;
   flex-direction: column;
   text-align: start;
+  max-width: 1140px;
 }
 
 #container_contato {
@@ -412,9 +431,14 @@ textarea {
 footer{
  width: 100%;
  background-color: #111;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
 }
 
 .footer_container{ 
+  width: 85vw;
+  max-width: 1140px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -450,6 +474,8 @@ footer{
   #menu_mobile{
     display: flex;           
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background-color: #161616;
     height: 0;               
