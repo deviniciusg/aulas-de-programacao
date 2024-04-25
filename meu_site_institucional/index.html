@@ -162,22 +162,20 @@
                 <h3 class="fundo_escuro">Contato</h3>
                 <h2 class="fundo_escuro_alt">Preencha os campos e entraremos em contato</h2>                
             <form action="/submit-your-form-handler" method="POST">
-                <input type="text" id="name" name="name" placeholder="Nome" required>
-                
-                <div class="input-group">
-                    <div>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                    </div>
-                    <div>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="Telefone" required>
-                    </div>
-                </div>
-                
-                <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
-                
-                <input class="btn_fundo" type="submit" value="Enviar Mensagem">
-            </div>
+                <input type="text" id="name" name="name" placeholder="Nome" required>                
+                    <div class="input-group">
+                        <div>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="Telefone" required>
+                        </div>
+                     </div>                
+                    <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                    <input class="btn_fundo" type="submit" value="Enviar Mensagem">
             </form>
+                </div>
+            
             <div>
                 <img src="/meu_site_institucional/assets/contato.png" alt="Contato">
             </div>
@@ -214,3 +212,5 @@
 <script src="script.js"></script>
 </body>
 </html>
+
+

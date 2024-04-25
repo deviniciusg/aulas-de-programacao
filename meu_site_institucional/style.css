@@ -67,6 +67,7 @@ h3 {
 #header_desktop img{
   width: auto;
   cursor: pointer;
+  max-width: 200px;
 }
 
 .btn{
