@@ -201,6 +201,15 @@ h3 {
   transform: translateY(-18px); 
 }
 
+.img_fly{
+  transition: transform 1s;
+}
+
+.img_fly:hover{
+  transition: transform 1s;
+  transform: translateY(-18px); 
+}
+
 .socialmedia_icons {
   display: flex;
   flex-direction: row;
@@ -324,12 +333,13 @@ padding: 0px 0px 20px 0px;
 .testimonal_card {
   padding: 0px;  
   border-radius: 50px;
-  background-color: #0491fc;
+  background-color: #161616;
   width:min-content;
+  color: white;
   margin: 10px 20px;
   display: flex;
   flex-direction: column;
-  height: fit-content;  
+
 }
 
 .testimonal_card img{
@@ -343,21 +353,29 @@ padding: 0px 0px 20px 0px;
 .testimonal_card h1, .testimonal_card h2, .testimonal_card h3, .testimonal_card h4, .testimonal_card p{
   padding: 5px;
   margin: 5px;
+  color: #04d4fc;
+
 }
 
 .testimonal_card h3 {
   padding: 15px 5px 5px 5px;
+  font-weight: 100;
+  font-size: 28px;
+  letter-spacing: 2px;
 }
 
 .testimonal_card h4 {
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 22px;
   margin: 0px 25px 10px 25px;
+  color: #05C7F2;
 }
 
 .testimonal_card p{
+  color: #fff;
   text-align: left;
-  font-size: 18px;
+  font-weight: 100;
+  font-size: 16px;
   margin: 5px 25px 25px 25px;
 }
 
