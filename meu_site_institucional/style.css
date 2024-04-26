@@ -167,7 +167,7 @@ h3 {
 }
 
 #wrapped_sobre_mim{
-  height: 100vh;
+  padding: 100px 0px;
   width: 85vw;
   display: flex;
   align-items: center;
@@ -244,7 +244,7 @@ padding: 0px 0px 20px 0px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 120vh;
+  padding: 100px 0px;
 }
 
 #formacao a, #formacao h3, #formacao h2{
@@ -315,12 +315,12 @@ padding: 0px 0px 20px 0px;
   justify-content: center;
   background-color: #04d4fc;
   text-align: center;
-  height: 155vh;
+  padding: 100px 0px;
   width: 100%;
 }
 
 .container_depoimentos{
-  height: 80vh;    
+  padding: 100px 0px;  
   max-width: 1140px;
 }
 
@@ -380,7 +380,7 @@ padding: 0px 0px 20px 0px;
 }
 
 #contato {
-  height: 80vh;
+  padding: 100px 0px;
   width: 85vw;
   display: flex;
   flex-direction: column;
