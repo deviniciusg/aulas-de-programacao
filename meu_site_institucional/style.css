@@ -239,6 +239,10 @@ h3 {
 padding: 0px 0px 20px 0px;
 }
 
+#servicos a, #servicos h3, #servicos h2 {
+  color: white;
+}
+
 #formacao{
   display: flex;
   justify-content: center;
